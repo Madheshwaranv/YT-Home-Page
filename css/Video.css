@@ -40,6 +40,8 @@
   width: 100%; 
   vertical-align: top;
   display: none;
+  min-height: 417px;
+  min-height: 234px;
 }
 .video-time{
   position: absolute;
