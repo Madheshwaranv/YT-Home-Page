@@ -8,6 +8,10 @@
   .video-grid{
     grid-template-columns: 1fr;
   }
+  .video-thumbnail_2{
+    min-width: 417px;
+    min-height: 234px;
+  }
 }
 @media (min-width:486px) and (max-width:870px){
   .video-grid{
@@ -40,8 +44,6 @@
   width: 100%; 
   vertical-align: top;
   display: none;
-  min-height: 417px;
-  min-height: 234px;
 }
 .video-time{
   position: absolute;
