@@ -8,7 +8,7 @@
   .video-grid{
     grid-template-columns: 1fr;
   }
-  .video-thumbnail_2{
+  .video-thumbnail_2,.thumb2{
     min-width: 417px;
     min-height: 234px;
   }
