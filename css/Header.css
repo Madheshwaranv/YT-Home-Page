@@ -72,11 +72,11 @@
     margin: 0px 12px; 
   }
   .middle-section{
-    margin-left: 20px;
+    margin-left: 10px;
     max-width: 0px;
   } 
   .search-bar{
-    width: 55px;
+    width: 80px;
   }
   .upload-button,
   .youtube-apps-button,
@@ -88,14 +88,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 20px;
     margin: 0px 28px 0px 29px;
   }
   .notifications-icon-container
   {
    margin-top: 6px;
    margin-right: 8px;
-  }  
+  }
 }
 
 .voice-search-button{
