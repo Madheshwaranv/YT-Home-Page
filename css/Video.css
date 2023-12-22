@@ -8,10 +8,6 @@
   .video-grid{
     grid-template-columns: 1fr;
   }
-  .video-thumbnail_2,.thumb2{
-    min-width: 417px;
-    min-height: 234px;
-  }
 }
 @media (min-width:486px) and (max-width:870px){
   .video-grid{
@@ -29,22 +25,28 @@
   }
 }
 
-
 .thumbnail{
   position: relative;
   cursor: pointer;
   display: inline-block;
+  width: 100%; 
 }
 
-.video-thumbnail{
+.video-thumbnail,
+.video-thumbnail_2 {
   width: 100%; 
+  height: auto; 
   vertical-align: top; 
+  object-fit: cover;
 }
+.video-thumbnail{
+  display: block;
+}
+
 .video-thumbnail_2{
-  width: 100%; 
-  vertical-align: top;
   display: none;
 }
+
 .video-time{
   position: absolute;
   background-color: rgba(0, 0, 0, 0.90);
