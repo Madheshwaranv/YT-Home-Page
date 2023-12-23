@@ -807,14 +807,17 @@
     mainvid.forEach(function(element){
       let video1 = element.querySelector(".video-thumbnail");
       let video2 = element.querySelector(".video-thumbnail_2");
+      let vtime = element.querySelector(".video-name");
       
       element.addEventListener('mouseover',function(){
         video1.style.display = 'none';
+        vtime.style.display = 'none';
         video2.style.display = 'block';
       });
 
       element.addEventListener('mouseout',function(){
         video1.style.display = 'block';
+        vtime.style.display = 'block';
         video2.style.display = 'none';
       });
 
