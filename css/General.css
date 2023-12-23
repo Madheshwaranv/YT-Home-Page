@@ -3,8 +3,9 @@ p{
 }
 body{
   font-family: Roboto,Arial;
-  padding-top: 73px ;
+  padding-top: 65px ;
   padding-left: 85px;
+  padding-right: 10px;
   padding-right: 10px;
   background-color: rgb(248, 248, 248);
 }
@@ -14,7 +15,6 @@ body{
   padding-top: 63px ;
   padding-left: 7px;
   padding-right: 7px;
-  padding-bottom:60px;
   background-color: rgb(248, 248, 248);
 }
 }

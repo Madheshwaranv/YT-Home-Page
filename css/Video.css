@@ -13,6 +13,10 @@
   .video-grid{
     grid-template-columns: 1fr 1fr;
   }
+  .video-thumbnail_2,.thumb2,.video-thumbnail{
+    min-width: 100%;
+    min-height: 100%;
+  }
 }
 @media(min-width:871px) and (max-width:1149px){
   .video-grid{
@@ -24,6 +28,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
 
 .thumbnail{
   position: relative;
@@ -46,6 +51,7 @@
 .video-thumbnail_2{
   display: none;
 }
+
 
 .video-time{
   position: absolute;

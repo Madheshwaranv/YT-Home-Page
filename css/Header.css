@@ -76,7 +76,7 @@
     max-width: 0px;
   } 
   .search-bar{
-    width:65px;
+    width: 80px;
   }
   .upload-button,
   .youtube-apps-button,
@@ -94,7 +94,6 @@
   {
    margin-top: 6px;
    margin-right: 8px;
-   margin-left:8px;
   }
 }
 
@@ -197,4 +196,9 @@
 }
 .notifications-tooltip:hover .tooltip{
   opacity: 1;
+}
+
+.hambtn{
+  background: transparent;
+  border: none;
 }
