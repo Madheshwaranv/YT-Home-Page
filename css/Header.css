@@ -68,8 +68,15 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .header{
+    justify-content: space-between;
+  }
+  .youtube-logo{
+    margin-left:10px;
+    margin-rigth:20px;
+  }
   .hamburger-menu{
-    margin: 0px 12px; 
+    display:none;
   }
   .middle-section{
     margin-left: 10px;
@@ -85,10 +92,9 @@
   }
   .right-section{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 28px 0px 29px;
+    margin-left: 28px;
   }
   .notifications-icon-container
   {
